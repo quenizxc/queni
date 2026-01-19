@@ -3,7 +3,7 @@ margin: 0;
     min-height: 100vh;
 
     /* Фон */
-    background-image: url("background.jpg"); э
+    background-image: url("bg.jpg"); 
     background-repeat: no-repeat;         
     background-size: cover;     
     background-position: center center;      
@@ -13,15 +13,15 @@ margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: red;
+    color: white;
 }
 
 p {
-    color: red;
+    color: white;
 }
 
 footer {
-    color: red;
+    color: white;
     text-align: center;
     padding: 10px;
 }
