@@ -1,25 +1,22 @@
 @font-face {
     font-family: "Determination";
-    src: url("DeltaruneCyrillic.ttf") format("truetype");
+    src: url("deltarunecyrillic.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
 
 body {
-    font-family: "Determination", monospace;
-    font-size: 20px;
-    color: white;
-    letter-spacing: 1px;
-}
-margin: 0;
+    margin: 0;
     min-height: 100vh;
     background-image: url("bg.jpg"); 
     background-repeat: no-repeat;         
     background-size: cover;     
     background-position: center center;      
     background-color: #111;
-    color: red;
-    font-family: Arial, sans-serif;
+    font-family: "Determination", monospace;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 1px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -34,4 +31,4 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
-}
+} 
