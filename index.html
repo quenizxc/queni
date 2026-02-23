@@ -4,27 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>quenizxc</title>
-    <link rel="stylesheet" href="styles.css">
+    
+    <style>
+        .b {
+            border: 4px solid #000
+            margin-bottom: 10px;
+            position: relative; 
+            height: 20px;
+            width: 300px;
+        }
+
+        .b::after {
+            content: "";
+            position: absolute;
+            width: 10px;
+            height: 20px;
+            background: #000;
+            right: -10px;
+            top: 0;
+        }
+
+        /* LOW — Красный */
+        .low::before {
+            content: "";
+            position: absolute;
+            height: 100%;
+            width: 33%;
+            background: #ED1C24;
+            top: 0;
+            left: 0;
+        }
+
+        /* MEDIUM — Желтый */
+        .medium::before {
+            content: "";
+            position: absolute;
+            height: 100%;
+            width: 60%;
+            background: #FFC60B;
+            top: 0;
+            left: 0;
+        }
+
+        /* HIGH — Зеленый */
+        .high::before {
+            content: "";
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            background: #00A055;
+            top: 0;
+            left: 0;
+        }
+    </style>
 </head>
+
 <body>
- <script>
+
+<script>
 var test = "";
 var info = prompt("test", test);
 alert(info);
- </script>
+</script>
+
 <header>
   <a href="https://ru.wikipedia.org/wiki/Астана" target="_blank"> Википедия про Астану </a> 
-    <h1>ВОЗМОЖНО КРУТОЙ САЙТ</h1>
+  <h1>ВОЗМОЖНО КРУТОЙ САЙТ</h1>
 </header>
 
-    <section class="content">
-        <p>  🥀🥀🥀</p>
-        <p>  Н.К.Б.</p>
-        <p>  н , quenizxc.</p>
-    </section>
+<section class="content">
+    <p>🥀🥀🥀</p>
+    <p>Н.К.Б.</p>
+    <p>н , quenizxc.</p>
+    <div class="b low"></div>
+    <div class="b medium"></div>
+    <div class="b high"></div>
+</section>
 
-    <footer>
-        <p>&copy; 2026 Что то. Все права не защищены.</p>
-    </footer>
+<footer>
+    <p>&copy; 2026 Что то. Все права не защищены.</p>
+</footer>
+
 </body>
 </html>
